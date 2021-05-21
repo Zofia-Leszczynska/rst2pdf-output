@@ -1,0 +1,257 @@
+
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:whc="http://www.oxygenxml.com/webhelp/components" xml:lang="en" lang="en" whc:version="22.0">
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><meta charset="UTF-8" /><meta name="DC.rights.owner" content="(C) Copyright 2021" /><meta name="copyright" content="(C) Copyright 2021" /><meta name="generator" content="DITA-OT" /><meta name="DC.type" content="dita" /><meta name="description" content="Learn about the options for highlighting codeblocks." /><meta name="DC.format" content="HTML5" /><meta name="DC.identifier" content="r_syntax_highlighting" />        
+      <title>Syntax highlighting</title><!--  Generated with Oxygen version 23.1, build number 2021030117.  --><meta name="wh-path2root" content="../" /><meta name="wh-toc-id" content="r_syntax_highlighting-d225e293" /><meta name="wh-source-relpath" content="Topics/27_r_syntax_highlighting.dita" /><meta name="wh-out-relpath" content="Topics/27_r_syntax_highlighting.html" />
+    <!-- Latest compiled and minified Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="../oxygen-webhelp/lib/bootstrap/css/bootstrap.min.css" />
+    
+    <link rel="stylesheet" href="../oxygen-webhelp/lib/jquery-ui/jquery-ui.min.css" />
+    
+    <!-- Template default styles  -->
+    <link rel="stylesheet" type="text/css" href="../oxygen-webhelp/app/topic-page.css?buildId=2021030117" />
+    
+    
+    <script type="text/javascript" src="../oxygen-webhelp/lib/jquery/jquery-3.5.1.min.js"><!----></script>
+    
+    <script data-main="../oxygen-webhelp/app/topic-page.js" src="../oxygen-webhelp/lib/requirejs/require.js"></script>
+<link rel="stylesheet" type="text/css" href="../oxygen-webhelp/template/oxygen-red.css?buildId=2021030117" /><link rel="stylesheet" type="text/css" href="../oxygen-webhelp/template/notes.css?buildId=2021030117" /></head>
+
+    <body class="wh_topic_page frmBody">
+        <a href="#wh_topic_body" class="sr-only sr-only-focusable">
+            Jump to main content
+        </a>
+        
+        
+        
+        
+        <header class="navbar navbar-default wh_header" whc:version="23.1">
+    <div class="container-fluid">
+        <div class="wh_header_flex_container navbar-nav navbar-expand-md navbar-dark">
+            <div class="wh_logo_and_publication_title_container">
+                <div class="wh_logo_and_publication_title">
+                    
+                    <!--
+                            This component will be generated when the next parameters are specified in the transformation scenario:
+                            'webhelp.logo.image' and 'webhelp.logo.image.target.url'.
+                            See: http://oxygenxml.com/doc/versions/17.1/ug-editor/#topics/dita_webhelp_output.html.
+                    -->
+                    
+                    <div class=" wh_publication_title "><a href="../index.html"><span class="title">How to use rst2pdf</span></a></div>
+                    
+                </div>
+                
+                <!-- The menu button for mobile devices is copied in the output only when the 'webhelp.show.top.menu' parameter is set to 'yes' -->
+                <button type="button" data-target="#wh_top_menu_and_indexterms_link" id="wh_menu_mobile_button" data-toggle="collapse" class="navbar-toggler collapsed wh_toggle_button" aria-expanded="false" aria-label="Toggle menu" aria-controls="wh_top_menu_and_indexterms_link">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <div class="wh_top_menu_and_indexterms_link collapse navbar-collapse" id="wh_top_menu_and_indexterms_link">
+                
+                <nav class=" wh_top_menu " aria-label="Menu Container"><ul xmlns:xhtml="http://www.w3.org/1999/xhtml" role="menubar" aria-label="Menu"><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="Untitled-d225e11-mi" data-tocid="Untitled-d225e11" data-state="not-ready" class=" topicref " data-id="Untitled"><span class="title"><a href="../Topics/2_r_getting_started.html#Untitled">Getting started</a></span></span></li><li role="menuitem"><span id="r_command_line_options-d225e78-mi" data-tocid="r_command_line_options-d225e78" data-state="leaf" class=" topicref " data-id="r_command_line_options"><span class="title"><a href="../Topics/8_r_command_line_options.html">Command line options</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="r_configuration_file-d225e90-mi" data-tocid="r_configuration_file-d225e90" data-state="not-ready" class=" topicref " data-id="r_configuration_file"><span class="title"><a href="../Topics/9_r_configuration_file.html#r_configuration_file">Configuration file</a></span></span></li><li role="menuitem"><span id="r_headers_and_footers-d225e124-mi" data-tocid="r_headers_and_footers-d225e124" data-state="leaf" class=" topicref " data-id="r_headers_and_footers"><span class="title"><a href="../Topics/12_r_headers_and_footers.html">Headers and footers</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="r_images-d225e137-mi" data-tocid="r_images-d225e137" data-state="not-ready" class=" topicref " data-id="r_images"><span class="title"><a href="../Topics/13_r_images.html#r_images">Images</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="r_styles-d225e171-mi" data-tocid="r_styles-d225e171" data-state="not-ready" class=" topicref " data-id="r_styles"><span class="title"><a href="../Topics/16_r_styles.html#r_styles">Styles</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="r_syntax_highlighting-d225e293-mi" data-tocid="r_syntax_highlighting-d225e293" data-state="not-ready" class=" topicref " data-id="r_syntax_highlighting"><span class="title"><a href="../Topics/27_r_syntax_highlighting.html#r_syntax_highlighting">Syntax highlighting</a></span></span></li><li role="menuitem"><span id="c_licenses-d225e316-mi" data-tocid="c_licenses-d225e316" data-state="leaf" class=" topicref " data-id="c_licenses"><span class="title"><a href="../Topics/29_c_licenses.html">Licenses</a></span></span></li></ul></nav>
+                
+                
+            </div>
+        </div>
+    </div>
+</header>
+        
+        
+         
+        
+        <!-- Search form -->
+        <div class=" wh_search_input navbar-form wh_topic_page_search search " role="form">
+            
+            
+            
+            <form id="searchForm" method="get" role="search" action="../search.html"><div><input type="search" placeholder="Search " class="wh_search_textfield" id="textToSearch" name="searchQuery" aria-label="Search query" required="required" /><button type="submit" class="wh_search_button" aria-label="Search"><span class="search_input_text">Search</span></button></div></form>
+            
+            
+            
+        </div>
+        
+        <div class="container-fluid" id="wh_topic_container">
+            <div class="row">
+
+                <nav class="wh_tools d-print-none navbar-expand-md" aria-label="Tools">
+                    
+                    <div data-tooltip-position="bottom" class=" wh_breadcrumb "><ol xmlns:html="http://www.w3.org/1999/xhtml" class="d-print-none"><li><span class="home"><a href="../index.html"><span>Home</span></a></span></li><li class="active"><span class="topicref" data-id="r_syntax_highlighting"><span class="title"><a href="../Topics/27_r_syntax_highlighting.html#r_syntax_highlighting">Syntax highlighting</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc">Learn about the options for highlighting codeblocks.</p></span></span></span></li></ol></div>
+                    
+                    
+                    
+                    <div class="wh_right_tools">
+                        <button class="wh_hide_highlight" aria-label="Toggle search highlights" title="Toggle search highlights"></button>
+                        <button class="webhelp_expand_collapse_sections" data-next-state="collapsed" aria-label="Collapse sections" title="Collapse sections"></button>
+                        <div class=" wh_navigation_links "><span id="topic_navigation_links" class="navheader"></span></div>
+                        
+                        <!-- External resource link -->
+                        
+                        
+                        <div class=" wh_print_link print d-none d-md-inline-block "><button onClick="window.print()" title="Print this page" aria-label="Print this page"></button></div>
+                        
+                        <!-- Expand/Collapse publishing TOC 
+                             The menu button for mobile devices is copied in the output only when the publication TOC is available
+                        -->
+                        
+                    </div>
+                    
+                </nav>
+            </div>
+            
+            
+            
+            
+            <div class="wh_content_area">
+                <div class="row">
+                    
+                    
+                    <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12" id="wh_topic_body">
+                        
+                        <div class=" wh_topic_content body "><main role="main"><article role="article" aria-labelledby="ariaid-title1"><article class="nested0" aria-labelledby="ariaid-title1" id="r_syntax_highlighting">
+    <h1 class="- topic/title title topictitle1" id="ariaid-title1">Syntax highlighting</h1>
+    
+    <div class="- topic/body reference/refbody body refbody"><p class="- topic/shortdesc shortdesc">Learn about the options for highlighting codeblocks.</p>
+        <section class="- topic/section section" id="r_syntax_highlighting__section_ygb_xnr_npb" data-ofbid="r_syntax_highlighting__section_ygb_xnr_npb">
+            <p dir="ltr" class="- topic/p p">rst2pdf adds a non-standard directive, called code-block, which produces
+                syntax highlighted for many languages using <a class="- topic/xref xref" href="https://pygments.org/docs/lexers/" target="_blank" rel="external noopener">Pygments</a>.</p>
+            <p dir="ltr" class="- topic/p p">For example, if you want to include a Python fragment:</p>
+        </section>
+        <div class="- topic/example example" id="r_syntax_highlighting__example_d5c_c4r_npb" data-ofbid="r_syntax_highlighting__example_d5c_c4r_npb"><pre class="+ topic/pre pr-d/codeblock pre codeblock" id="r_syntax_highlighting__codeblock_xcp_vqn_rpb" data-ofbid="r_syntax_highlighting__codeblock_xcp_vqn_rpb"><code>.. code-block:: python
+
+   def myFun(x,y):
+       print x+y</code></pre><img class="- topic/image image" id="r_syntax_highlighting__image_kqd_1zl_rpb" src="../Images/python2.png" /></div>
+        <section class="- topic/section section" id="r_syntax_highlighting__section_ajy_d4r_npb" data-ofbid="r_syntax_highlighting__section_ajy_d4r_npb">
+            <p class="- topic/p p">Notice that you need to declare the language of the fragment. See <a class="- topic/xref xref" href="https://pygments.org/docs/lexers/" target="_blank" rel="external noopener">pygments.org</a> for a list of those currently supported.</p>
+            <p class="- topic/p p">You can use the <code class="+ topic/ph pr-d/codeph ph codeph">linenos</code> option to display line numbers:</p>
+        </section>
+        <div class="- topic/example example" id="r_syntax_highlighting__example_rzc_h4r_npb" data-ofbid="r_syntax_highlighting__example_rzc_h4r_npb"><img class="- topic/image image" id="r_syntax_highlighting__image_wdx_1zl_rpb" src="../Images/python3.png" /></div>
+        <section class="- topic/section section" id="r_syntax_highlighting__section_o1p_34r_npb" data-ofbid="r_syntax_highlighting__section_o1p_34r_npb">
+            <p class="- topic/p p">You can use the <code class="+ topic/ph pr-d/codeph ph codeph">hl_lines</code> option to emphasize certain lines by
+                dimming the other lines. This parameter takes a space separated list of line
+                numbers. The other lines are then styled with the class
+                    p<code class="+ topic/ph pr-d/codeph ph codeph">ygments_diml</code> that defaults to gray. For example, to highlight
+                    <code class="+ topic/ph pr-d/codeph ph codeph">print</code> "<code class="+ topic/ph pr-d/codeph ph codeph">line a</code>" and <code class="+ topic/ph pr-d/codeph ph codeph">print</code>
+                    "<code class="+ topic/ph pr-d/codeph ph codeph">line b</code>":</p>
+        </section>
+        <div class="- topic/example example" id="r_syntax_highlighting__example_rr4_j4r_npb" data-ofbid="r_syntax_highlighting__example_rr4_j4r_npb"><img class="- topic/image image" id="r_syntax_highlighting__image_jln_bzl_rpb" src="../Images/python4.png" /></div>
+        <section class="- topic/section section" id="r_syntax_highlighting__section_ick_k4r_npb" data-ofbid="r_syntax_highlighting__section_ick_k4r_npb">
+            <p dir="ltr" class="- topic/p p">The overall look of a code block is controlled by the “code” style or by a
+                class you apply to it using the <code class="+ topic/ph pr-d/codeph ph codeph">.. class:: </code>directive. Additionally,
+                if you want to change some properties when using different languages, you can define
+                styles with the name of the language. For example, a <code class="+ topic/ph pr-d/codeph ph codeph">python </code>style
+                will be applied to code blocks created with<code class="+ topic/ph pr-d/codeph ph codeph"> .. code-block::
+                python.</code></p>
+            <p class="- topic/p p">The look of the line numbers is controlled by the <code class="+ topic/ph pr-d/codeph ph codeph">linenumbers</code>
+                style.</p>
+        </section>
+    </div>
+<article class="- topic/topic reference/reference topic reference nested1" aria-labelledby="ariaid-title2" id="r_file_inclusion">
+    <h2 class="- topic/title title topictitle2" id="ariaid-title2">File inclusion</h2>
+    
+    <div class="- topic/body reference/refbody body refbody"><p class="- topic/shortdesc shortdesc">Learn how to add an external code file.</p>
+        <section class="- topic/section section" id="r_file_inclusion__section_dnm_q4r_npb" data-ofbid="r_file_inclusion__section_dnm_q4r_npb">
+            <p class="- topic/p p">You can use the <code class="+ topic/ph pr-d/codeph ph codeph">code-block </code>directive with an external file, using
+                    the<code class="+ topic/ph pr-d/codeph ph codeph"> :include:</code> option:</p>
+        </section>
+        <div class="- topic/example example" id="r_file_inclusion__example_jrm_r4r_npb" data-ofbid="r_file_inclusion__example_jrm_r4r_npb">
+            <pre class="+ topic/pre pr-d/codeblock pre codeblock" id="r_file_inclusion__codeblock_w1v_r4r_npb" data-ofbid="r_file_inclusion__codeblock_w1v_r4r_npb"><code>.. code-block:: python
+:include: setup.py
+</code></pre>
+        </div>
+        <section class="- topic/section section" id="r_file_inclusion__section_cyq_s4r_npb" data-ofbid="r_file_inclusion__section_cyq_s4r_npb">
+            <p class="- topic/p p">This gives a warning when <code class="+ topic/ph pr-d/codeph ph codeph">setup.py</code> doesn’t exist or can’t be
+                opened.</p>
+        </section>
+        <section class="- topic/section section" id="r_file_inclusion__section_r2w_t4r_npb" data-ofbid="r_file_inclusion__section_r2w_t4r_npb"><h3 class="- topic/title title sectiontitle">Include with boundaries</h3>
+            
+            <div class="- topic/p p">You can add selectors to limit the inclusion to a portion of the file. The options
+                    are:<ul class="- topic/ul ul" id="r_file_inclusion__ul_pcn_v4r_npb" data-ofbid="r_file_inclusion__ul_pcn_v4r_npb">
+                    <li class="- topic/li li"><code class="+ topic/ph pr-d/codeph ph codeph">:start-at: string</code>
+                        <sub class="+ topic/ph hi-d/sub ph sub">includes file beginning at the first occurrence of string, string
+                                <strong class="+ topic/ph hi-d/b ph b">included</strong></sub></li>
+                    <li class="- topic/li li"><code class="+ topic/ph pr-d/codeph ph codeph">:start-after: string</code>
+                        <sub class="+ topic/ph hi-d/sub ph sub">includes file beginning at the first occurrence of string, string
+                                <strong class="+ topic/ph hi-d/b ph b">excluded</strong></sub></li>
+                    <li class="- topic/li li"><code class="+ topic/ph pr-d/codeph ph codeph">:end-before: string</code>
+                        <sub class="+ topic/ph hi-d/sub ph sub">includes file up to the first occurrence of string, string
+                                <strong class="+ topic/ph hi-d/b ph b">excluded</strong></sub></li>
+                    <li class="- topic/li li"><code class="+ topic/ph pr-d/codeph ph codeph">:end-at: string</code>
+                        <sub class="+ topic/ph hi-d/sub ph sub">includes file up to the first occurrence of string, string<strong class="+ topic/ph hi-d/b ph b">
+                                included</strong></sub></li>
+                </ul></div>
+            <p dir="ltr" class="- topic/p p">Let’s display a class from rst2pdf:</p>
+        </section>
+        <div class="- topic/example example" id="r_file_inclusion__example_itj_fpr_npb" data-ofbid="r_file_inclusion__example_itj_fpr_npb">
+            <pre class="+ topic/pre pr-d/codeblock pre codeblock" id="r_file_inclusion__codeblock_owb_gpr_npb" data-ofbid="r_file_inclusion__codeblock_owb_gpr_npb"><code>.. code-block:: python 
+:include: assets/flowables.py
+:start-at: class Separation(Flowable): 
+:end-before: class Reference(Flowable):
+</code></pre>
+        </div>
+        <section class="- topic/section section" id="r_file_inclusion__section_b4s_gpr_npb" data-ofbid="r_file_inclusion__section_b4s_gpr_npb">
+            <p class="- topic/p p">This command gives:</p>
+        </section>
+        <div class="- topic/example example" id="r_file_inclusion__example_zfl_hpr_npb" data-ofbid="r_file_inclusion__example_zfl_hpr_npb">
+            <pre class="+ topic/pre pr-d/codeblock pre codeblock" id="r_file_inclusion__codeblock_w2p_hpr_npb" data-ofbid="r_file_inclusion__codeblock_w2p_hpr_npb"><code>class Separation(Flowable):
+"""A simple &lt;hr&gt;-like flowable"""
+
+def wrap(self, w, h): 
+self.w = w 
+return w, 1 * cm 
+
+def draw(self): 
+self.canv.line(0, 0.5 * cm, self.w, 0.5 * cm)
+</code></pre>
+        </div>
+    </div>
+</article></article></article></main></div>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </div>
+                    
+                        
+                        <nav role="navigation" id="wh_topic_toc" aria-label="On this page" class="col-lg-2 d-none d-lg-block navbar d-print-none"> 
+                            <div class=" wh_topic_toc "><div class="wh_topic_label">On this page</div><ul><li class="topic-item"><a href="#r_file_inclusion" data-tocid="r_file_inclusion">File inclusion</a><ul><li class="section-item"><div class="section-title"><a href="#r_file_inclusion__section_r2w_t4r_npb" data-tocid="r_file_inclusion__section_r2w_t4r_npb">Include with boundaries</a></div></li></ul></li></ul></div>
+                        </nav>
+                        
+                    
+                </div>
+            </div>
+            
+            
+            
+        </div> 
+        <footer class="navbar navbar-default wh_footer" whc:version="23.1">
+  <div class=" footer-container mx-auto ">
+    
+            Generated by <a class="oxyFooter" href="http://www.oxygenxml.com/xml_webhelp.html" target="_blank">
+            &lt;oXygen/&gt; XML WebHelp
+            </a>
+        
+  </div>
+</footer>
+        
+        <div id="go2top" class="d-print-none">
+            <span class="oxy-icon oxy-icon-up"></span>
+        </div>
+        
+        <!-- The modal container for images -->
+        <div id="modal_img_large" class="modal">
+            <span class="close oxy-icon oxy-icon-remove"></span>
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="modal-img" alt="" />
+            <!-- Modal Caption (Image Text) -->
+            <div id="caption"></div>
+        </div>
+        
+        
+        
+    </body>
+</html>

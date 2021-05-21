@@ -1,0 +1,1 @@
+define({"topics":[{"title":"File inclusion","shortdesc":"<p class=\"shortdesc\">Learn how to add an external code file.<\/p>","href":"Topics\/27_r_syntax_highlighting.html#r_file_inclusion","attributes":{"data-id":"r_file_inclusion"},"menu":{"hasChildren":false},"tocID":"r_file_inclusion-d225e304","topics":[]}]});

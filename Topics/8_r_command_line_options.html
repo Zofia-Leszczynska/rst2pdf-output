@@ -1,0 +1,331 @@
+
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:whc="http://www.oxygenxml.com/webhelp/components" xml:lang="en" lang="en" whc:version="22.0">
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><meta charset="UTF-8" /><meta name="DC.rights.owner" content="(C) Copyright 2021" /><meta name="copyright" content="(C) Copyright 2021" /><meta name="generator" content="DITA-OT" /><meta name="DC.type" content="reference" /><meta name="description" content="Learn what you can do using the command line, such as how to add a configuration file, how to add a stylesheet, or change the font." /><meta name="DC.format" content="HTML5" /><meta name="DC.identifier" content="r_command_line_options" />        
+      <title>Command line options</title><!--  Generated with Oxygen version 23.1, build number 2021030117.  --><meta name="wh-path2root" content="../" /><meta name="wh-toc-id" content="r_command_line_options-d225e78" /><meta name="wh-source-relpath" content="Topics/8_r_command_line_options.dita" /><meta name="wh-out-relpath" content="Topics/8_r_command_line_options.html" />
+    <!-- Latest compiled and minified Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="../oxygen-webhelp/lib/bootstrap/css/bootstrap.min.css" />
+    
+    <link rel="stylesheet" href="../oxygen-webhelp/lib/jquery-ui/jquery-ui.min.css" />
+    
+    <!-- Template default styles  -->
+    <link rel="stylesheet" type="text/css" href="../oxygen-webhelp/app/topic-page.css?buildId=2021030117" />
+    
+    
+    <script type="text/javascript" src="../oxygen-webhelp/lib/jquery/jquery-3.5.1.min.js"><!----></script>
+    
+    <script data-main="../oxygen-webhelp/app/topic-page.js" src="../oxygen-webhelp/lib/requirejs/require.js"></script>
+<link rel="stylesheet" type="text/css" href="../oxygen-webhelp/template/oxygen-red.css?buildId=2021030117" /><link rel="stylesheet" type="text/css" href="../oxygen-webhelp/template/notes.css?buildId=2021030117" /></head>
+
+    <body id="r_command_line_options" class="wh_topic_page frmBody">
+        <a href="#wh_topic_body" class="sr-only sr-only-focusable">
+            Jump to main content
+        </a>
+        
+        
+        
+        
+        <header class="navbar navbar-default wh_header" whc:version="23.1">
+    <div class="container-fluid">
+        <div class="wh_header_flex_container navbar-nav navbar-expand-md navbar-dark">
+            <div class="wh_logo_and_publication_title_container">
+                <div class="wh_logo_and_publication_title">
+                    
+                    <!--
+                            This component will be generated when the next parameters are specified in the transformation scenario:
+                            'webhelp.logo.image' and 'webhelp.logo.image.target.url'.
+                            See: http://oxygenxml.com/doc/versions/17.1/ug-editor/#topics/dita_webhelp_output.html.
+                    -->
+                    
+                    <div class=" wh_publication_title "><a href="../index.html"><span class="title">How to use rst2pdf</span></a></div>
+                    
+                </div>
+                
+                <!-- The menu button for mobile devices is copied in the output only when the 'webhelp.show.top.menu' parameter is set to 'yes' -->
+                <button type="button" data-target="#wh_top_menu_and_indexterms_link" id="wh_menu_mobile_button" data-toggle="collapse" class="navbar-toggler collapsed wh_toggle_button" aria-expanded="false" aria-label="Toggle menu" aria-controls="wh_top_menu_and_indexterms_link">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <div class="wh_top_menu_and_indexterms_link collapse navbar-collapse" id="wh_top_menu_and_indexterms_link">
+                
+                <nav class=" wh_top_menu " aria-label="Menu Container"><ul xmlns:xhtml="http://www.w3.org/1999/xhtml" role="menubar" aria-label="Menu"><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="Untitled-d225e11-mi" data-tocid="Untitled-d225e11" data-state="not-ready" class=" topicref " data-id="Untitled"><span class="title"><a href="../Topics/2_r_getting_started.html#Untitled">Getting started</a></span></span></li><li role="menuitem"><span id="r_command_line_options-d225e78-mi" data-tocid="r_command_line_options-d225e78" data-state="leaf" class=" topicref " data-id="r_command_line_options"><span class="title"><a href="../Topics/8_r_command_line_options.html">Command line options</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="r_configuration_file-d225e90-mi" data-tocid="r_configuration_file-d225e90" data-state="not-ready" class=" topicref " data-id="r_configuration_file"><span class="title"><a href="../Topics/9_r_configuration_file.html#r_configuration_file">Configuration file</a></span></span></li><li role="menuitem"><span id="r_headers_and_footers-d225e124-mi" data-tocid="r_headers_and_footers-d225e124" data-state="leaf" class=" topicref " data-id="r_headers_and_footers"><span class="title"><a href="../Topics/12_r_headers_and_footers.html">Headers and footers</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="r_images-d225e137-mi" data-tocid="r_images-d225e137" data-state="not-ready" class=" topicref " data-id="r_images"><span class="title"><a href="../Topics/13_r_images.html#r_images">Images</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="r_styles-d225e171-mi" data-tocid="r_styles-d225e171" data-state="not-ready" class=" topicref " data-id="r_styles"><span class="title"><a href="../Topics/16_r_styles.html#r_styles">Styles</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="r_syntax_highlighting-d225e293-mi" data-tocid="r_syntax_highlighting-d225e293" data-state="not-ready" class=" topicref " data-id="r_syntax_highlighting"><span class="title"><a href="../Topics/27_r_syntax_highlighting.html#r_syntax_highlighting">Syntax highlighting</a></span></span></li><li role="menuitem"><span id="c_licenses-d225e316-mi" data-tocid="c_licenses-d225e316" data-state="leaf" class=" topicref " data-id="c_licenses"><span class="title"><a href="../Topics/29_c_licenses.html">Licenses</a></span></span></li></ul></nav>
+                
+                
+            </div>
+        </div>
+    </div>
+</header>
+        
+        
+         
+        
+        <!-- Search form -->
+        <div class=" wh_search_input navbar-form wh_topic_page_search search " role="form">
+            
+            
+            
+            <form id="searchForm" method="get" role="search" action="../search.html"><div><input type="search" placeholder="Search " class="wh_search_textfield" id="textToSearch" name="searchQuery" aria-label="Search query" required="required" /><button type="submit" class="wh_search_button" aria-label="Search"><span class="search_input_text">Search</span></button></div></form>
+            
+            
+            
+        </div>
+        
+        <div class="container-fluid" id="wh_topic_container">
+            <div class="row">
+
+                <nav class="wh_tools d-print-none navbar-expand-md" aria-label="Tools">
+                    
+                    <div data-tooltip-position="bottom" class=" wh_breadcrumb "><ol xmlns:html="http://www.w3.org/1999/xhtml" class="d-print-none"><li><span class="home"><a href="../index.html"><span>Home</span></a></span></li><li class="active"><span class="topicref" data-id="r_command_line_options"><span class="title"><a href="../Topics/8_r_command_line_options.html">Command line options</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc">Learn what you can do using the command line, such as how to add a configuration         file, how to add a stylesheet, or change the font.</p></span></span></span></li></ol></div>
+                    
+                    
+                    
+                    <div class="wh_right_tools">
+                        <button class="wh_hide_highlight" aria-label="Toggle search highlights" title="Toggle search highlights"></button>
+                        <button class="webhelp_expand_collapse_sections" data-next-state="collapsed" aria-label="Collapse sections" title="Collapse sections"></button>
+                        <div class=" wh_navigation_links "><span id="topic_navigation_links" class="navheader"></span></div>
+                        
+                        <!-- External resource link -->
+                        
+                        
+                        <div class=" wh_print_link print d-none d-md-inline-block "><button onClick="window.print()" title="Print this page" aria-label="Print this page"></button></div>
+                        
+                        <!-- Expand/Collapse publishing TOC 
+                             The menu button for mobile devices is copied in the output only when the publication TOC is available
+                        -->
+                        
+                    </div>
+                    
+                </nav>
+            </div>
+            
+            
+            
+            
+            <div class="wh_content_area">
+                <div class="row">
+                    
+                    
+                    <div class="col-12" id="wh_topic_body">
+                        
+                        <div class=" wh_topic_content body "><main role="main"><article role="article" aria-labelledby="ariaid-title1">
+    <h1 class="- topic/title title topictitle1" id="ariaid-title1">Command line options</h1>
+    
+    <div class="- topic/body reference/refbody body refbody"><p class="- topic/shortdesc shortdesc">Learn what you can do using the command line, such as how to add a configuration
+        file, how to add a stylesheet, or change the font.</p>
+        <section class="- topic/section section" id="r_command_line_options__section_ffk_v1h_rpb" data-ofbid="r_command_line_options__section_ffk_v1h_rpb">
+            <p class="- topic/p p">If you need help with the commands, type <code class="+ topic/ph pr-d/codeph ph codeph">rst2pdf -h </code>or<code class="+ topic/ph pr-d/codeph ph codeph">
+                    rst2pdf --help</code> and press <span class="+ topic/ph ui-d/uicontrol ph uicontrol">enter</span>. In the command
+                line, you should see an instruction with command line options, similar to the one
+                below.</p>
+            <p class="- topic/p p">Here are the command line options to type after the command <code class="+ topic/ph pr-d/codeph ph codeph">rst2pdf
+                    sample.rst</code> (where<em class="+ topic/ph hi-d/i ph i"> sample.rst</em> is the name of the rst file from
+                which you want to generate the PDF).</p>
+            <div class="- topic/note note note note_note" id="r_command_line_options__note_ffg_hz3_npb" data-ofbid="r_command_line_options__note_ffg_hz3_npb"><span class="note__title">Note:</span> Only after you have typed all the commands you need, press
+                    <span class="+ topic/ph ui-d/uicontrol ph uicontrol">enter</span>.</div>
+        </section>
+        <section class="- topic/section section" id="r_command_line_options__section_dsg_zy3_npb" data-ofbid="r_command_line_options__section_dsg_zy3_npb">
+            <table class="- topic/table table" id="r_command_line_options__table_y2g_nz3_npb" data-ofbid="r_command_line_options__table_y2g_nz3_npb"><caption class="- topic/title title tablecap" caption-side="top" is-repeated="true"><span class="table--title-label">Table<span class="table--title-label-number"> 1</span><span class="table--title-label-punctuation">. </span></span><span class="table--title">Command line options</span></caption><colgroup><col /><col /></colgroup><thead class="- topic/thead thead">
+                        <tr class="- topic/row">
+                            <th class="- topic/entry entry colsep-0 rowsep-0" id="r_command_line_options__table_y2g_nz3_npb__entry__1">Command</th>
+                            <th class="- topic/entry entry colsep-0 rowsep-0" id="r_command_line_options__table_y2g_nz3_npb__entry__2">Description</th>
+                        </tr>
+                    </thead><tbody class="- topic/tbody tbody">
+                        <tr class="- topic/row">
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__1"><code class="+ topic/ph pr-d/codeph ph codeph">--config=FILE</code></td>
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__2">Config file to use. Default = <em class="+ topic/ph hi-d/i ph i">~/.rst2pdf/config</em></td>
+                        </tr>
+                        <tr class="- topic/row">
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__1"><code class="+ topic/ph pr-d/codeph ph codeph">-o FILE, --output=FILE</code></td>
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__2">Write the PDF to FILE</td>
+                        </tr>
+                        <tr class="- topic/row">
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__1"><code class="+ topic/ph pr-d/codeph ph codeph">-s STYLESHEETS,
+                                --stylesheets=STYLESHEETS</code></td>
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__2">A comma-separated list of custom stylesheets. Default =
+                                ""</td>
+                        </tr>
+                        <tr class="- topic/row">
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__1"><code class="+ topic/ph pr-d/codeph ph codeph">-c, --compressed</code></td>
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__2">Create a compressed PDF. Default = False</td>
+                        </tr>
+                        <tr class="- topic/row">
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__1"><code class="+ topic/ph pr-d/codeph ph codeph">--print-stylesheet</code></td>
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__2">Print the default stylesheet and exit</td>
+                        </tr>
+                        <tr class="- topic/row">
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__1"><code class="+ topic/ph pr-d/codeph ph codeph">--baseurl=URL</code></td>
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__2">The base URL for relative URLs</td>
+                        </tr>
+                        <tr class="- topic/row">
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__1"><code class="+ topic/ph pr-d/codeph ph codeph">--header=HEADER</code></td>
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__2">Page header if not specified in the document</td>
+                        </tr>
+                        <tr class="- topic/row">
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__1"><code class="+ topic/ph pr-d/codeph ph codeph">--footer=FOOTER</code></td>
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__2">Page footer if not specified in the document</td>
+                        </tr>
+                        <tr class="- topic/row">
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__1"><code class="+ topic/ph pr-d/codeph ph codeph">--section-header-depth=N</code></td>
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__2">Sections up to this dept will be used in the header and footer's
+                                replacement of ###Section###. Default = 2</td>
+                        </tr>
+                        <tr class="- topic/row">
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__1"><code class="+ topic/ph pr-d/codeph ph codeph">--smart-quotes=VALUE</code></td>
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__2">
+                                <p dir="ltr" class="- topic/p p">Try to convert ASCII quotes, ellipsis and dashes to the
+                                    typographically correct equivalent. Default = 0</p>
+                                <p dir="ltr" class="- topic/p p">The possible values are: </p>
+                                <p dir="ltr" class="- topic/p p">1. Suppress all transformations. (Do nothing.)</p>
+                                <p dir="ltr" class="- topic/p p"> 2. Performs default SmartyPants transformations:
+                                    quotes (including backticks-style), em-dashes, and ellipses.
+                                    "--" (dash dash) is used to signify an em-dash; there is no
+                                    support for en-dashes. </p>
+                                <p dir="ltr" class="- topic/p p">3. Same as --smart-quotes=1, except that it uses the
+                                    old-school typewriter shorthand for dashes: "--" (dash dash) for
+                                    en-dashes, "---" (dash dash dash) for em-dashes. </p>
+                                <p dir="ltr" class="- topic/p p">4. Same as --smart-quotes=2, but inverts the shorthand
+                                    for dashes: "--" (dash dash) for em-dashes, and "---" (dash dash
+                                    dash) for en-dashes. </p>
+                            </td>
+                        </tr>
+                        <tr class="- topic/row">
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__1"><code class="+ topic/ph pr-d/codeph ph codeph">--fit-literal-mode=MODE</code></td>
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__2">What to do when a literal is too wide. One of error, overflow,
+                                shrink, truncate. Default = "shrink"</td>
+                        </tr>
+                        <tr class="- topic/row">
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__1"><code class="+ topic/ph pr-d/codeph ph codeph">--fit-background-mode=MODE</code></td>
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__2">How to fit the background image to the page. One of scale,
+                                scale_width or center. Default = "center"</td>
+                        </tr>
+                        <tr class="- topic/row">
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__1"><code class="+ topic/ph pr-d/codeph ph codeph">--inline-links</code></td>
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__2">Shows target between parenthesis instead of active link</td>
+                        </tr>
+                        <tr class="- topic/row">
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__1"><code class="+ topic/ph pr-d/codeph ph codeph">--repeat-table-rows</code></td>
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__2">Repeats header row for each splitted table</td>
+                        </tr>
+                        <tr class="- topic/row">
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__1"><code class="+ topic/ph pr-d/codeph ph codeph">--raw-html</code></td>
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__2">Support embedding raw HTML. Default = False</td>
+                        </tr>
+                        <tr class="- topic/row">
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__1"><code class="+ topic/ph pr-d/codeph ph codeph">-q, --quiet</code></td>
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__2">Print less information</td>
+                        </tr>
+                        <tr class="- topic/row">
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__1"><code class="+ topic/ph pr-d/codeph ph codeph">-v, --verbose</code></td>
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__2">Print debug information</td>
+                        </tr>
+                        <tr class="- topic/row">
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__1"><code class="+ topic/ph pr-d/codeph ph codeph">--very-verbose</code></td>
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__2">Print even more debug information</td>
+                        </tr>
+                        <tr class="- topic/row">
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__1"><code class="+ topic/ph pr-d/codeph ph codeph">--version</code></td>
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__2">Print version number and exit</td>
+                        </tr>
+                        <tr class="- topic/row">
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__1"><code class="+ topic/ph pr-d/codeph ph codeph">--default-dpi=NUMBER</code></td>
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__2">DPI for objects sized in pixels. Default = 300</td>
+                        </tr>
+                        <tr class="- topic/row">
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__1"><code class="+ topic/ph pr-d/codeph ph codeph">--show-frame-boundary</code></td>
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__2">Show frame borders (only useful for debugging). Default =
+                                False</td>
+                        </tr>
+                        <tr class="- topic/row">
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__1"><code class="+ topic/ph pr-d/codeph ph codeph">--disable-splittables</code></td>
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__2">Don't use splittable flowables in some elements. Only try this if
+                                you can't process a document any other way</td>
+                        </tr>
+                        <tr class="- topic/row">
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__1"><code class="+ topic/ph pr-d/codeph ph codeph">-b LEVEL, --break-level=LEVEL</code></td>
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__2">Maximum section level that starts in a new page. Default =
+                                0</td>
+                        </tr>
+                        <tr class="- topic/row">
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__1"><code class="+ topic/ph pr-d/codeph ph codeph">--first-page-on-right</code></td>
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__2">When using double sided pages, the first page will start on the
+                                right hand side. (Book Style)</td>
+                        </tr>
+                        <tr class="- topic/row">
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__1"><code class="+ topic/ph pr-d/codeph ph codeph">--blank-first-page</code></td>
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__2">Add a blank page at the beginning of the document</td>
+                        </tr>
+                        <tr class="- topic/row">
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__1"><code class="+ topic/ph pr-d/codeph ph codeph">--break-side=VALUE</code></td>
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__2">How section breaks work. Can be "even", and sections start in an
+                                even page,"odd", and sections start in odd pages, or "any" and
+                                sections start in the next page,be it even or odd. See also the -b
+                                option</td>
+                        </tr>
+                        <tr class="- topic/row">
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__1"><code class="+ topic/ph pr-d/codeph ph codeph">--date-invariant</code></td>
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__2">Don't store the current date in the PDF. Useful mainly for the
+                                test suite, where we don't want the PDFs to change</td>
+                        </tr>
+                        <tr class="- topic/row">
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__1"><code class="+ topic/ph pr-d/codeph ph codeph">--custom-cover=FILE</code></td>
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__2">Template file used for the cover page. Default =
+                                    <em class="+ topic/ph hi-d/i ph i">cover.tmpl</em></td>
+                        </tr>
+                        <tr class="- topic/row">
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__1"><code class="+ topic/ph pr-d/codeph ph codeph">--use-numbered-links</code></td>
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__2">When using numbered sections, adds the numbers to all links
+                                referring to the section headers. Default = False</td>
+                        </tr>
+                        <tr class="- topic/row">
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__1"><code class="+ topic/ph pr-d/codeph ph codeph">--strip-elements-with-class=CLASS</code></td>
+                            <td class="- topic/entry entry colsep-0 rowsep-0" headers="r_command_line_options__table_y2g_nz3_npb__entry__2">Remove elements with this CLASS from the output. Can be used
+                                multiple times</td>
+                        </tr>
+                    </tbody></table>
+        </section>
+    </div>
+</article></main></div>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            
+            
+        </div> 
+        <footer class="navbar navbar-default wh_footer" whc:version="23.1">
+  <div class=" footer-container mx-auto ">
+    
+            Generated by <a class="oxyFooter" href="http://www.oxygenxml.com/xml_webhelp.html" target="_blank">
+            &lt;oXygen/&gt; XML WebHelp
+            </a>
+        
+  </div>
+</footer>
+        
+        <div id="go2top" class="d-print-none">
+            <span class="oxy-icon oxy-icon-up"></span>
+        </div>
+        
+        <!-- The modal container for images -->
+        <div id="modal_img_large" class="modal">
+            <span class="close oxy-icon oxy-icon-remove"></span>
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="modal-img" alt="" />
+            <!-- Modal Caption (Image Text) -->
+            <div id="caption"></div>
+        </div>
+        
+        
+        
+    </body>
+</html>

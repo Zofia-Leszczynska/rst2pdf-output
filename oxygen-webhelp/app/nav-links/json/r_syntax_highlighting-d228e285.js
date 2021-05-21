@@ -1,0 +1,1 @@
+define({"topics":[{"title":"File inclusion","shortdesc":"<p class=\"shortdesc\"\/>","href":"Topics\/27_r_syntax_highlighting.html#r_file_inclusion","attributes":{"data-id":"r_file_inclusion"},"menu":{"hasChildren":false},"tocID":"r_file_inclusion-d228e296","topics":[]}]});

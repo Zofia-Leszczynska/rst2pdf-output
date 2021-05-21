@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+   <appContext helpID="Untitled" path="Topics/2_r_getting_started.html#Untitled"/>
+   <appContext helpID="c_what_is_pip"
+               path="Topics/2_r_getting_started.html#c_what_is_pip"/>
+   <appContext helpID="t_getting_started"
+               path="Topics/2_r_getting_started.html#t_getting_started"/>
+   <appContext helpID="rst2pdf_installation"
+               path="Topics/2_r_getting_started.html#rst2pdf_installation"/>
+   <appContext helpID="t_how_to_add_pip_programs_to_path"
+               path="Topics/2_r_getting_started.html#t_how_to_add_pip_programs_to_path"/>
+   <appContext helpID="t_how_to_start_using_rst2pdf"
+               path="Topics/2_r_getting_started.html#t_how_to_start_using_rst2pdf"/>
+   <appContext helpID="r_command_line_options"
+               path="Topics/8_r_command_line_options.html"/>
+   <appContext helpID="r_configuration_file"
+               path="Topics/9_r_configuration_file.html#r_configuration_file"/>
+   <appContext helpID="c_what_is_a_configuration_file"
+               path="Topics/9_r_configuration_file.html#c_what_is_a_configuration_file"/>
+   <appContext helpID="r_example_file"
+               path="Topics/9_r_configuration_file.html#r_example_file"/>
+   <appContext helpID="r_headers_and_footers"
+               path="Topics/12_r_headers_and_footers.html"/>
+   <appContext helpID="r_images" path="Topics/13_r_images.html#r_images"/>
+   <appContext helpID="r_inline" path="Topics/13_r_images.html#r_inline"/>
+   <appContext helpID="c_image_size" path="Topics/13_r_images.html#c_image_size"/>
+   <appContext helpID="r_styles" path="Topics/16_r_styles.html#r_styles"/>
+   <appContext helpID="t_using_class_directive"
+               path="Topics/16_r_styles.html#t_using_class_directive"/>
+   <appContext helpID="c_interpreted_text_roles"
+               path="Topics/16_r_styles.html#c_interpreted_text_roles"/>
+   <appContext helpID="t_using_interpreted_text_roles"
+               path="Topics/16_r_styles.html#t_using_interpreted_text_roles"/>
+   <appContext helpID="r_available_attributes"
+               path="Topics/16_r_styles.html#r_available_attributes"/>
+   <appContext helpID="r_included_stylesheets"
+               path="Topics/16_r_styles.html#r_included_stylesheets"/>
+   <appContext helpID="r_stylesheet_syntax"
+               path="Topics/16_r_styles.html#r_stylesheet_syntax"/>
+   <appContext helpID="r_style_definition"
+               path="Topics/16_r_styles.html#r_style_definition"/>
+   <appContext helpID="r_page_size_and_margins"
+               path="Topics/16_r_styles.html#r_page_size_and_margins"/>
+   <appContext helpID="r_page_layout" path="Topics/16_r_styles.html#r_page_layout"/>
+   <appContext helpID="r_styling_your_document"
+               path="Topics/16_r_styles.html#r_styling_your_document"/>
+   <appContext helpID="r_syntax_highlighting"
+               path="Topics/27_r_syntax_highlighting.html#r_syntax_highlighting"/>
+   <appContext helpID="r_file_inclusion"
+               path="Topics/27_r_syntax_highlighting.html#r_file_inclusion"/>
+   <appContext helpID="c_licenses" path="Topics/29_c_licenses.html"/>
+</map>
