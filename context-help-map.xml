@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map>
    <appContext helpID="Untitled" path="Topics/2_r_getting_started.html#Untitled"/>
+   <appContext helpID="_1_c_introduction"
+               path="Topics/2_r_getting_started.html#_1_c_introduction"/>
    <appContext helpID="c_what_is_pip"
                path="Topics/2_r_getting_started.html#c_what_is_pip"/>
    <appContext helpID="t_getting_started"
